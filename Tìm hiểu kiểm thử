@@ -5,4 +5,32 @@ hiện các lỗi của phần mềm được kiểm thử về thiết kế, m�
 kèm tài liệu kèm theo, môi trường hoạt đông, tốc độ hoạt động, khả năng tải của hệ thống,... để đảm bảo độ tin cậy và chất lượng 
 của phần mềm. 
 
-Theo phương pháp tiến hahf thì người ta chia kiểm thử thành hai loại : kiểm thử thủ công và kiểm thử tự động
+Theo phương pháp tiến hành thì người ta chia kiểm thử thành hai loại : kiểm thử thủ công và kiểm thử tự động.
+
+- Kiểm thử thủ công là tester làm mọi công việc hoàn toàn bằng tay, từ viết test case đến thực hiện test, mọi thao tác như nhập 
+điều kiện đầu vào, thực hiện một số sự kiện khác như click nút và quan sát kết quả thực tế, sau đó so sánh kết quả thực tế với 
+kết quả mong muốn trong test case, điền kết quả test. Hiện nay, phần lớn các tổ chức, các công ty phần mềm, hoặc các nhóm làm 
+phần mềm đều thực hiện kiểm thử thủ công là chủ yếu.
+
+- Kiểm thử tự động là thực hiện kiểm thử phần mềm bằng một chương trình đặc biệt với rất ít hoặc không có sự tương tác của con 
+người, giúp cho người thực hiện việc kiểm thử phần mềm (tester) không phải lặp đi lặp lại các bước nhàm chán. Công cụ kiểm thử 
+tự động có thể lấy dữ liệu từ file bên ngoài (excel, csv…) nhập vào ứng dụng, so sánh kết quả mong đợi (từ file excel, csv…) với 
+kết quả thực tế và xuất ra báo cáo kết quả kiểm thử.
+
+Ưu/nhược điêm của kiểm thử thủ công và tự động.
+- Ưu điểm:
++ Thủ công: giảm được chi phí, thích hợp cho những trường hợp ít testcase và các testcase chỉ phải thực hiện ít lần
++ Tự động: Tiết kiệm thời gian, thích hợp cho việc test đi test lại 1 case nhiều lần. 
+
+- Nhược điểm:
++ Thủ công: tốn thời gian
++ Tự động: Tốn kém chi phí
+
+Nên sử dụng các loại hình kiểm thử như thế nào
+- Sử dụng kiểm thử tự động khi:
++ Phải thực thi một số lượng test case quá lớn trong một thời gian ngắn
++ Số lượng đầu vào cho một test case quá nhiều
++ Thực hiện test performance test hoặc load test
+
+Tuy nhiên kiểm thử thủ công vẫn không thể thay thế được vì nó nhằm đảm bảo giảm tối đa những lỗi không thể lường trước 
+trong bất kỳ kịch bản nào.
