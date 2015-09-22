@@ -1,0 +1,8 @@
+
+Kiểm thử là gì:
+- Kiểm thử phần mềm là một phần chính trong việc phát triển và xây dựng một phần mềm.Bao gồm các hoạt động nhằm tìm kiếm, phát 
+hiện các lỗi của phần mềm được kiểm thử về thiết kế, mã nguồn, chức năng, dữ liệu, bảo mật, than thiện với người dùng, tài liệu 
+kèm tài liệu kèm theo, môi trường hoạt đông, tốc độ hoạt động, khả năng tải của hệ thống,... để đảm bảo độ tin cậy và chất lượng 
+của phần mềm. 
+
+Theo phương pháp tiến hahf thì người ta chia kiểm thử thành hai loại : kiểm thử thủ công và kiểm thử tự động
