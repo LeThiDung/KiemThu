@@ -1,0 +1,41 @@
+Có ba sản phẩm kiểm thử được giới thiệu trong Visual Studio 2010: 
+
+1.	Visual Studio Test Professional: chủ yếu dành cho các kiểm thử viên (tester) nói chung, những người muốn tạo ra các test case
+bằng tay, thực thi các kiểm tra và xem các kết quả là một phần của kế hoạch kiểm thử. Visual Studio Test Professional có một ứng
+dụng mới tên là Microsoft Test Manager, rất dễ cài đặt và sử dụng. Với sản phẩm này, kiểm thử viên cũng có thể thực hiện việc
+kiểm thử tự động.
+2.	Visual Studio 2010 Premium: cung cấp tính năng cho phép người dùng tạo ra các unit test và các test UI tự động cho ứng dụng. 
+Các kiểm tra được tạo ra có thể được thực thi từ Visual Studio 2010, dưới dạng dòng lệnh (command line), Team Foundation Build, 
+hoặc kết hợp với test case và thực thi từ một test plan sử dụng Microsoft Test Manager.
+3.	Visual Studio 2010 Ultimate: có tất cả các chức năng kiểm thử được cung cấp cho Visual Studio 2010. Các công cụ kiểm thử được
+kết hợp với các phần khác của Visual Studio Ultimate, người dùng có thể lưu trữ kết quả kiểm tra vào CSDL, tạo ra các báo biểu và
+so sánh các kiểu khác nhau của dữ liệu.
+
+Quy trình kiểm thử ứng dụng trong Visual Studio 2010
+
+Tạo và quản lý các kiểm tra (test) là một trong những việc quan trọng của quy trình kiểm thử phần mềm. Tùy thuộc vào nhu cầu 
+kiểm thử mà người dùng có thể chọn kiểm thử bằng tay (manual testing) và kiểm thử tự động (automated testing).
+Với kiểm thử bằng tay, người dùng tạo các test case với các bước thực hiện (step), và các điểm xác nhận hợp lệ (valication 
+point) bằng cách sử dụng Visual Studio Test Professional hoặc Visual Studio 2010 Ultimate, sau đó thêm các test case vào test 
+plan bằng cách sử dụng Microsoft Test Manager.
+
+Quy trình kiểm thử ứng dụng bằng tay sử dụng Microsoft Test Manager: 
+
+•	Tạo test plan
+•	Điền các thông tin cho test plan
+•	Tạo các test case
+•	Đưa test case vào test plan
+•	Thực thi cac test case và tìm bug
+•	Theo dõi quá trình kiểm thử của ứng dụng
+
+Với kiểm thử tự động, người dùng cũng có thể tạo ra các kiểm tra với Visual Studio. Kiểm thử tự động làm cho ứng dụng trở nên 
+hiệu quả hơn. Kiểm thử tự động thực thi các bước kiểm tra và xác định kết quả kiểm tra (thành công hay thất bại). Kiểm thử tự 
+động được thực hiện nhanh hơn và thường xuyên hơn kiểm thử bằng tay.
+Người dùng cũng có thể chuyển các test case đã viết bằng tay sang các kiểm tra tự động bằng cách liên kết một kiểm tra tự động 
+với một test case có chứa đầy đủ các bước thực hiện. Sau đó, người dùng có thể thực thi các kiểm tra tự động này với Microsoft 
+Test Manager và xem kết quả.
+
+Kết hợp kiểm tra tự động với testcase
+•	Chuyển các test case đã viết bằng tay sang kiểm tra tự động (automated test)
+•	Thực thi các automated test và ghi nhận kết quả
+•	Theo dõi quá trình kiểm thử của ứng dụng
