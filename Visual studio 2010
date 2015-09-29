@@ -15,6 +15,7 @@ Quy trình kiểm thử ứng dụng trong Visual Studio 2010
 
 Tạo và quản lý các kiểm tra (test) là một trong những việc quan trọng của quy trình kiểm thử phần mềm. Tùy thuộc vào nhu cầu 
 kiểm thử mà người dùng có thể chọn kiểm thử bằng tay (manual testing) và kiểm thử tự động (automated testing).
+
 Với kiểm thử bằng tay, người dùng tạo các test case với các bước thực hiện (step), và các điểm xác nhận hợp lệ (valication 
 point) bằng cách sử dụng Visual Studio Test Professional hoặc Visual Studio 2010 Ultimate, sau đó thêm các test case vào test 
 plan bằng cách sử dụng Microsoft Test Manager.
@@ -31,6 +32,7 @@ Quy trình kiểm thử ứng dụng bằng tay sử dụng Microsoft Test Manag
 Với kiểm thử tự động, người dùng cũng có thể tạo ra các kiểm tra với Visual Studio. Kiểm thử tự động làm cho ứng dụng trở nên 
 hiệu quả hơn. Kiểm thử tự động thực thi các bước kiểm tra và xác định kết quả kiểm tra (thành công hay thất bại). Kiểm thử tự 
 động được thực hiện nhanh hơn và thường xuyên hơn kiểm thử bằng tay.
+
 Người dùng cũng có thể chuyển các test case đã viết bằng tay sang các kiểm tra tự động bằng cách liên kết một kiểm tra tự động 
 với một test case có chứa đầy đủ các bước thực hiện. Sau đó, người dùng có thể thực thi các kiểm tra tự động này với Microsoft 
 Test Manager và xem kết quả.
