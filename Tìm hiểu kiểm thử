@@ -19,7 +19,7 @@ kết quả thực tế và xuất ra báo cáo kết quả kiểm thử.
 
 Ưu/nhược điêm của kiểm thử thủ công và tự động.
 - Ưu điểm:
-+ Thủ công: giảm được chi phí, thích hợp cho những trường hợp ít testcase và các testcase chỉ phải thực hiện ít lần
++ Thủ công: giảm được chi phí, thích hợp cho những trường hợp ít testcase và các testcase chỉ phải thực hiện ít lần.
 + Tự động: Tiết kiệm thời gian, thích hợp cho việc test đi test lại 1 case nhiều lần. 
 
 - Nhược điểm:
