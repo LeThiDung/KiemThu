@@ -1,0 +1,88 @@
+
+Tính năng của MTP.
+
+•	Testing tools
+-	Kiểm thử thăm dò - Exploratory test: sử dụng để tìm và khám phá ra những lỗi mới trong ứng dụng mà bạn đang làm,khả năng 
+find bug cao nhất,các Tester có kn thường dùng kỹ thuật này để test ứng dụng đầu tiên.
+-	Test case management: quản lý các test case, tạo các test case và thực hiện chúng. Phân tích quá trình thực hiện một testcase.
+-	Manual Test Execution: Công cụ cho phép bạn tùy chọn thực thi các thử nghiệm để kiểm tra lỗi.
+-	Fast-forward for Manual Testing: nhằm đẩy nhanh quá trình test thủ công bằng cách  tự động 1 số hoặc tất cả các bước sau 
+cùng  của các bước thử nghiệm.
+
+•	Quản lý kiểm thử - Test Management:
+-	Microsoft test manager:  Test Manager là một công cụ quản lý toàn bộ các công việc lien quan đến kiểm thử ứng dụng, các loại 
+kiểm tra, lập kế hoạch kiểm tra, tạo các test case thử nghiệm chương trình. Nó hoạt động và liên kết trực tiếp đến 
+Team Foundation Server.
+-	Manual Test Record & Playback: Các kịch bản thử nghiệm được lưu lại thành các video. Tương ứng mỗi bước trên Test case sẽ 
+được đánh dấu vị trí của video thể hiện, từ đó có thể xem lại một bước bất kỳ trong quá trình thử nghiệm.
+
+•	Tích  hợp với Team Foundation server để
+-	Thực thi test 
+-	Quản lý các testcase 
+-	Quản lý code
+-	Xem bug của đội test
+-	Yêu cầu và quản lý  phản hồi về dự án
+-	Agile Portfolio Management: là công cụ hỗ trợ quản lý danh mục đầu tư. Cung cấp hỗ trợ quyết định cho quy hoặc và kế hoạch 
+danh mục đầu tư nó hình dung và báo cáo các sáng kiến chiến lược của người sử dụng.
+-	Team chat room: các thành viên trong nhóm có thể tra đổi với nhau
+-	Release Management:là hệ thống mà người thử nghiệm muốn  có code để test thì dev sẽ đưa hoặc build cho thông qua hệ thống này.
+-	Agile Planning Workbook:  Là một tập tin Excel hỗ trợ quá trình lập kế hoạch cho dự án ban đầu dựa theo qui trình phát triển 
+phần mềm Agile. Phân chia nguồn lực thực hiện dự án. Phân chia các công việc cho các thành viên trong nhóm, phân chia các lần 
+lặp theo, tối ưu hóa thời gian thực hiện các công việc đó.
+-	SharePoint integration (Team portal): Là cổng thông tin giao tiếp của toàn đội dự án. Mỗi khi có một dự án được khởi tạo, sẽ 
+phát sinh tự động một Team Portal, là nơi mà các thành viên dự án có thể xem báo cáo, tài liệu, chia sẽ thong tin và cập nhật 
+tình trạng của dự án. Phát triển các ứng dụng trên Office và trên SharePoint nhằm nâng cao khả năng làm việc, tương tác và đơn 
+giản hóa quá trình triển khai sản phẩm.
+-	Reporting & BI: Hệ thống báo cáo sử dụng Reporting Services và cơ sở dữ liệu phân tích chi tiết thông tin dự án theo kiểu 
+Business Intelligence
+-	Tích hợp mã nguồn- Project and Project Server integration: 
+-	Quản lý phiên bản- version control: Công cụ quản lý mã nguồn, quản lý phiên bản phần mềm. Kiểm soát quá trình checkin, 
+checkout mã. Cho phép xem lại lịch sử của một tập tin chương trình bất kỳ, so sách giữa các phiên bản 
+-	Work item : Công cụ hỗ trợ quá trình theo dõi các công việc, mỗi công việc gắn liền với các dòng mã nào, tập tin nào trong 
+chương trình. Với hệ thống Work Items Hirache chúng ta có thể xem được tất cả thong tin kể từ khi có yêu cầu đến triển khai 
+thành công việc và quá trình thực hiện công việc đó.
+-	Code comments on Changesets or Git commits ??
+(Changeset là một tập hợp những thay đổi với một tên là duy nhất, Những thay đổi có thể là những đoạn được edit trong một file 
+nội dung, những thay đổi trong một cấu trúc cây… Changeset không lưu lại toàn bộ file khi bạn edit , nó chỉ lưu lại những điểm
+thay đổi , nó là một patch với một tên riêng biệt mà bạn có thể truy cập tới.)
+-	Build automation: Công cụ biên dịch chương trình tự động với mã chương trình được lưu trên máy chủ. Quá trình biên dịch có 
+thể xảy ra khi có sự thay đổi mã chương trình, hoặc người dùng tự động cho biên dịch, hoặc lập lịch biên dịch định kỳ.
+
+•	Liên kết với visual studio online để:
+-	Thực thi test
+-	Quản lý các testcase 
+-	Agile Portfolio Management
+-	Team chat room: các thành viên trong nhóm có thể tra đổi với nhau
+-	Backlog management
+-	Sprint planing
+-	Kanban broad
+-	Agile task boards
+-	Work item charting
+-	Work item tracking
+-	Yêu cầu và quản lý phản hồi
+-	Version Control 
+-	Code comments on Changesets or Git commits
+-	Build automation
+
+•	Quản lý Lab kiểm thử - Lab Management: Lab Management Configuration dùng quản lý, cấu hình các thành phần tham gia vào phòng 
+LAB thử nghiệm. Thiết lập môi trường, máy chủ ảo, cấu hình,…
+-	Virtual environment setup & teardown: Cài đặt môi trường ảo, triển khai chúng trên một hệ thống máy chủ phục vụ cho các thử 
+nghiệm chương trình. Nó hỗ trợ đầy đủ các mẫu môi trường như là máy chủ, máy trạm, checkpoint,…
+-	Provision environment from template: Hỗ trợ khả năng cung cấp các môi trường thử nghiệm từ các mẫu có sẳn.
+-	Checkpoint environment: Hỗ trợ việc kiểm soát các môi trường ảo.
+
+•	Collaboration Tools: công cụ hơp tác
+-	PowerPoint Storyboarding 
+-	Team Explorer: Là công cụ ở phía máy làm việc để kết nối đến Team Foundation Server và làm việc với Team Foundation Server. 
+Nó như là một chương trình Team Foundation Server ở phía máy làm việc, thực hiện mọi tính năng của Team Foundation Server.
+-	Team Explorer Everywhere (third-party development tools support)
+
+•	Supported Usage Scenarios
+-	Individual Developers
+-	Classroom Learning
+-	Academic Research
+-	Contributing to Open Source Projects
+-	Non-enterprise organizations , for up to 5 users
+-	Enterprise
+
+•	Hỗ trợ, lợi ích từ MSDN: là một thư viện trong lập trình trên các ứng dụng windowns của bộ Visual studio
