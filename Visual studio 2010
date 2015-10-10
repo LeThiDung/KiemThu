@@ -41,3 +41,10 @@ Kết hợp kiểm tra tự động với testcase
 •	Chuyển các test case đã viết bằng tay sang kiểm tra tự động (automated test)
 •	Thực thi các automated test và ghi nhận kết quả
 •	Theo dõi quá trình kiểm thử của ứng dụng
+
+Testplan: cho phép người kiểm thử có thể xác định những gì muốn thử nghiệm và làm thế nào để chạy các bài thử nghiệm đó.
+Nó là một kế hoawcjh cụ thể có cả ngày tháng, các môi trường sử dụng,.. những vấn đề lq đến thực thi kiểm thử.
+Test suites: là những tài liệu mà các trường hợp kiểm thử được nhóm lại với nhau. ta có thể dễ dàng chạy tất cả các testcase
+trong một bộ. Chúng được tạo bằng tay dựa trên yêu cầu hoặc một truy vấn nào đó.
+Testcase: là tài liệu những trường hợp kiểm thử cụ thể, nó bao gồm dữ liệu đầu vào, các bước thực hiện, kết quả mong muốn và 
+kết quả thực tế thực hiện được.
