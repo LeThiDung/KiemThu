@@ -5,7 +5,7 @@ Tính năng của MTP.
 -	Kiểm thử thăm dò - Exploratory test: sử dụng để tìm và khám phá ra những lỗi mới trong ứng dụng mà bạn đang làm,khả năng 
 find bug cao nhất,các Tester có kn thường dùng kỹ thuật này để test ứng dụng đầu tiên.
 -	Test case management: quản lý các test case, tạo các test case và thực hiện chúng. Phân tích quá trình thực hiện một testcase.
--	Manual Test Execution: Công cụ cho phép bạn tùy chọn thực thi các thử nghiệm để kiểm tra lỗi.
+-	Manual Testing: Công cụ cho phép bạn tùy chọn thực thi các thử nghiệm để kiểm tra lỗi.
 -	Fast-forward for Manual Testing: nhằm đẩy nhanh quá trình test thủ công bằng cách  tự động 1 số hoặc tất cả các bước sau 
 cùng  của các bước thử nghiệm.
 
