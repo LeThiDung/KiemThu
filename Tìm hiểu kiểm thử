@@ -32,5 +32,9 @@ Nên sử dụng các loại hình kiểm thử như thế nào
 + Số lượng đầu vào cho một test case quá nhiều
 + Thực hiện test performance test hoặc load test
 
+- Sử dụng kiểm thử thủ công:
++ Chi phí không nhiều
++ Số testcase cần test không quá nhiều, và có thời gian cho phép
+
 Tuy nhiên kiểm thử thủ công vẫn không thể thay thế được vì nó nhằm đảm bảo giảm tối đa những lỗi không thể lường trước 
 trong bất kỳ kịch bản nào.
