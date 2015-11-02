@@ -10,7 +10,7 @@ find bug cao nhất,các Tester có kn thường dùng kỹ thuật này để t
 cùng  của các bước thử nghiệm.
 
 •	Quản lý kiểm thử - Test Management:
--	Microsoft test manager:  Test Manager là một công cụ quản lý toàn bộ các công việc lien quan đến kiểm thử ứng dụng, các loại 
+-	Microsoft test manager:  Test Manager là một công cụ quản lý toàn bộ các công việc liên quan đến kiểm thử ứng dụng, các loại 
 kiểm tra, lập kế hoạch kiểm tra, tạo các test case thử nghiệm chương trình. Nó hoạt động và liên kết trực tiếp đến 
 Team Foundation Server.
 -	Manual Test Record & Playback: Các kịch bản thử nghiệm được lưu lại thành các video. Tương ứng mỗi bước trên Test case sẽ 
