@@ -48,7 +48,7 @@ thay đổi , nó là một patch với một tên riêng biệt mà bạn có t
 -	Build automation: Công cụ biên dịch chương trình tự động với mã chương trình được lưu trên máy chủ. Quá trình biên dịch có 
 thể xảy ra khi có sự thay đổi mã chương trình, hoặc người dùng tự động cho biên dịch, hoặc lập lịch biên dịch định kỳ.
 
-•	Liên kết với visual studio online để:
+•	Liên kết với visual studio online để(tuong tu TFS)
 -	Thực thi test
 -	Quản lý các testcase 
 -	Agile Portfolio Management
