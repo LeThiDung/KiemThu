@@ -1,0 +1,51 @@
+Sử dụng công cụ
+- Người kiểm thử chủ yếu thao tác trên Microsoft Test Manager(MTM).
+- Microsoft cung cấp thêm một ứng dụng Visual Studio Online giúp người dử dụng có thể thao tác trên nền Web và tương tác với MTM được cài đặt ở máy.
+- Người kiểm thử sẽ Tạo các Test Plan trong dự án. 
+- Kết nối MTM với Team Project Collection
+- Người kiểm thử chọn project chuẩn bị kiểm thử.
+- Một project được lập ra một số TestPlan. Sau khi truy nhập vào project. Chọn TestPlan muốn test.
+- Sau khi kết nối xong. MTM được chia làm hai phần đó là Testing Center và Lab Center.
+1.Testing center
+- Giúp người kiểm thử quản lý, tạo mới và thực hiện các ca kiểm thử. Testing Center có chứa các Tab như Plan, Test, Trac, Organize. 
+Mỗi tab thực hiện các công việc khác nhau.
+  + Plan: Chứa tất cả các tính năng để tạo bộ thử nghiệm như Test Suites, TestCase. Thêm hoặc liên kết đến các Test Plan trong dự án.
+    * Content: Chứa các cài đặt cho các Test Plan được bao gồm các thiết lập, tất cả cá Testcase được chia thành các Test Suites .
+    Test Suites được thể hiện bằng 3 cách:  requirement-based, query-based, hoặc tùy biến với một bộ Test Suites có sẵn. Chúng được 
+    phân biệt bởi các kí hiệu khác nhau.
+        - Requirement-based Suite: Chọn một bộ Test Suites tĩnh và thêm yêu cầu. Sau đó chọn một hoặc nhiều yêu cầu.Mỗi một yêu cầu trở 
+        thành một Test Suite.Các TestCase đã được liên kết với các yêu cầu dược tự động thêm vào Test Suites.
+        - Query-based Suite: Các Test Suites được tạo ra dựa trên kết quả của một truy vấn ở công việc.
+        - Static Suites: Là một bộ đầy đủ các tùy chỉnh.Ta cung cấp các tiêu đề cho các bộ và có thể thêm các Test case khi cần thiết.
+    - Results: Quản lý phân tích các kết quả test.Những test chưa được thực hiện, những testcase Pass và Fail.
+    - Properties: Thông tin của TestPlan đang được thực thi kiểm thử.
+    - Run Settings: Nơi xác định nơi thực hiện thử nghiệm và những dữ liệu kèm theo khi test được thiết lập. Để tạo một Test Settings 
+    mới ta truy cập vào Lab Center-> test Settings->Test Settings Manager-> New. Ở đây chúng ta bắt đầu thiết lập.
+    Các lựa chọn mang lại những tài liệu riêng. Khi thực thi test, mỗi tính năng sẽ sinh ra một tài liệu  để lưu trữ, theo dõi quá 
+    trình thử nghiệm theo định dạng rieng của nó.
+    
+    * Test: Tab này sử dụng để chọn trường hợp thử nghiệm và chạy thử nghiệm đó.
+      - Run Test: Là nơi chứa các trường hợp kiểm thử và thực thi các thử nghiệm.
+      - Analyze test Runs: tổng hợp các thử nghiệm đã được chạy và kết quả của chúng.
+      - Do Exploratory testing: ta thực hiện một loại test tại đây. Gọi là test thăm dò, người kiểm thử thực hiện test khi không dựa trên 
+      bất kì một tài liệu nào có trước mà chủ yếu dựa trên kinh nghiệm.
+      - View Exploratory Test Sessions: Thống kê những tes thăm dò đã được thực hiện.
+      - Verify Bugs: Kiểm chứng các bugs được tìm thấy.
+    * Track: Được sử dụng để xây dựng các truy vấn để xem tình trạng của các ca xét nghiệm. Testing center cung cấp nhiều truy vấn mặc 
+    định hoặc ta có thể tự tạo truy vấn theo yêu cầu của bản thân.
+      - Queries: Tạo ra các truy vấn mới 
+      - Assign Build: 
+      - Recommended Test:
+    * Ozganize: Sử dụng để tổ chức hoặc quản lý kế hoặc kiểm tra, cấu hình trường hợp kiểm thử và Shared bước cho trường hợp kiểm thử.
+      - Test Plan Manager: Quản lý các test plan  có trong dự án.
+      - Test Configuration Manager: Quản lý các cấu hình, môi trường để thực thi các trường hợp thử nghiệm.
+      - Test Case Manager: Quản lý danh sách tất cả các test case trong dự án
+      - Shared Steps Manager: Quản lý danh sách  tất cả các bước được Shared.
+  
+2. Lab Center
+- Sử dụng để quản lý các môi trường thử nghiệm, cài đặt thử nghiệm và có thể điều khiển được để thử nghiệm.Lab Center chức cá Tab thực 
+hiện các chức năng khác nhau.
+* Lab: Chứa tất cả các môi trường cho mục đich thử nghịệm
+* Testing Settings: Chứa các cấu hình, thiết lập cho test thủ công và test tự động.
+* Libraly: Chứa danh sách tất cả các môi trường để sử dụng trong thử nghiệm bao gồm cả môi trường đã được triển khai.
+* Controller: Chứa danh sách của tất cả các bộ điều khiển và kiểm tra tất cả các đại lý liên kết với các bộ điều khiển.
